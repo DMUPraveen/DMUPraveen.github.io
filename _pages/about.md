@@ -38,11 +38,12 @@ I am **Praveen Sumanasekara**, a final-year undergraduate in the Department of E
 - Sumanasekara, D. M. U. P., *et al.* **A Detailed Analysis of Datasets Used in HSI in the Context of Mixture Models for Unmixing.** *Moratuwa Engineering Research Conference (MERCon)*, 2024. [doi:10.1109/MERCon63886.2024.10689093](https://doi.org/10.1109/MERCon63886.2024.10689093)
 
 ### Preprints / Submitted manuscripts
+
+- **Preprocessing Algorithm Leveraging Geometric Modeling for Scale Correction in Hyperspectral Images for Improved Unmixing Performance.** (Preprint). [arXiv:2508.08431](https://arxiv.org/abs/2508.08431)
+
 - Ratnayake, A., *et al.* **Enhanced SCanNet with CBAM and Dice Loss for Semantic Change Detection.** (Accepted for MERCon 2025). [arXiv:2505.04199](https://arxiv.org/abs/2505.04199) · [doi:10.48550/arXiv.2505.04199](https://doi.org/10.48550/arXiv.2505.04199)
 
 - **Precision Spatio-Temporal Feature Fusion for Robust Remote Sensing Change Detection.** (Submitted to ICIIS 2025). [arXiv:2507.11523](https://arxiv.org/abs/2507.11523)
-
-- **Preprocessing Algorithm Leveraging Geometric Modeling for Scale Correction in Hyperspectral Images for Improved Unmixing Performance.** (Preprint). [arXiv:2508.08431](https://arxiv.org/abs/2508.08431)
 
 - **Mamba-FCS: Joint Spatio-Frequency Feature Fusion, Change-Guided Attention, and SeK Loss for Enhanced Semantic Change Detection in Remote Sensing.** (Preprint). [arXiv:2508.08232](https://arxiv.org/abs/2508.08232)
 
