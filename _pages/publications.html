@@ -6,31 +6,94 @@ author_profile: true
 ---
 
 {% if site.author.googlescholar %}
-  <div class="wordwrap">You can also find my articles on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.</div>
+<div class="wordwrap">You can also find my articles on <a href="{{site.author.googlescholar}}">my Google Scholar
+    profile</a>.</div>
 {% endif %}
 
 {% include base_path %}
 
+<section id="publications">
+  <h2>Publications</h2>
+
+  <h3>Peer-reviewed journal articles</h3>
+  <ul>
+    <li>
+      Ratnayake, R. M. K. L., <em>et al.</em> — <strong>Hyperspectral unmixing with spatial context and endmember
+        ensemble learning with attention mechanism</strong>, <em>ISPRS Open Journal of Photogrammetry and Remote
+        Sensing</em> (2025).
+      <a href="https://doi.org/10.1016/j.ophoto.2025.100086">doi:10.1016/j.ophoto.2025.100086</a>
+    </li>
+    <li>
+      Dissanayakea, M. A. K. L., <em>et al.</em> — <strong>A low-cost, activated carbon-coated, stainless-steel counter
+        electrode for dye-sensitized solar cells</strong>, <em>Ceylon Journal of Science</em> (2024).
+      <a href="http://dx.doi.org/10.4038/cjs.v53i1.8237">doi:10.4038/cjs.v53i1.8237</a>
+    </li>
+  </ul>
+
+  <h3>Conference papers & proceedings</h3>
+  <ul>
+    <li>
+      Wickramathilaka, H. M. K. D., <em>et al.</em> — <strong>Endmember Abundance Prediction in Hyperspectral Unmixing:
+        The Impact of Endmember Extraction Algorithms and Self-Attention in Autoencoders</strong>, <em>Proceedings of
+        the 2023 IEEE 17th International Conference on Industrial and Information Systems (ICIIS)</em> (2023).
+      <a href="https://doi.org/10.1109/ICIIS58898.2023.10253564">doi:10.1109/ICIIS58898.2023.10253564</a>
+    </li>
+    <li>
+      Ratnayake, K., <em>et al.</em> — <strong>Comparison of Appliance Signature Classification Methods for
+        Non-Intrusive Load Monitoring</strong>, <em>2024 4th International Conference on Electrical Engineering
+        (EECon)</em> (2024).
+      <a href="https://doi.org/10.1109/EECon64470.2024.10841878">doi:10.1109/EECon64470.2024.10841878</a>
+    </li>
+    <li>
+      Sumanasekara, D. M. U. P., <em>et al.</em> — <strong>A Detailed Analysis of Datasets Used in HSI in the Context of
+        Mixture Models for Unmixing</strong>, <em>Moratuwa Engineering Research Conference (MERCon)</em> (2024).
+      <a href="https://doi.org/10.1109/MERCon63886.2024.10689093">doi:10.1109/MERCon63886.2024.10689093</a>
+    </li>
+  </ul>
+
+  <h3>Preprints & Submitted manuscripts</h3>
+  <ul>
+    <li>
+      Ratnayake, A., <em>et al.</em> — <strong>Enhanced SCanNet with CBAM and Dice Loss for Semantic Change
+        Detection</strong> (Accepted for MERCon 2025).
+      <a href="https://doi.org/10.48550/arXiv.2505.04199">arXiv:2505.04199</a>
+    </li>
+    <li>
+      <strong>Precision Spatio-Temporal Feature Fusion for Robust Remote Sensing Change Detection</strong> (Submitted to
+      ICIIS 2025).
+      <a href="https://arxiv.org/abs/2507.11523">arXiv:2507.11523</a>
+    </li>
+    <li>
+      <strong>Preprocessing Algorithm Leveraging Geometric Modeling for Scale Correction in Hyperspectral Images for
+        Improved Unmixing Performance</strong> (Preprint).
+      <a href="https://arxiv.org/abs/2508.08431">arXiv:2508.08431</a>
+    </li>
+    <li>
+      <strong>Mamba-FCS: Joint Spatio-Frequency Feature Fusion, Change-Guided Attention, and SeK Loss for Enhanced
+        Semantic Change Detection in Remote Sensing</strong> (Preprint).
+      <a href="https://arxiv.org/abs/2508.08232">arXiv:2508.08232</a>
+    </li>
+  </ul>
+</section>
+
 <!-- New style rendering if publication categories are defined -->
 {% if site.publication_category %}
-  {% for category in site.publication_category  %}
-    {% assign title_shown = false %}
-    {% for post in site.publications reversed %}
-      {% if post.category != category[0] %}
-        {% continue %}
-      {% endif %}
-      {% unless title_shown %}
-        <h2>{{ category[1].title }}</h2><hr />
-        {% assign title_shown = true %}
-      {% endunless %}
-      {% include archive-single.html %}
-    {% endfor %}
-  {% endfor %}
-{% else %}
-  {% for post in site.publications reversed %}
-    {% include archive-single.html %}
-  {% endfor %}
+{% for category in site.publication_category %}
+{% assign title_shown = false %}
+{% for post in site.publications reversed %}
+{% if post.category != category[0] %}
+{% continue %}
 {% endif %}
-
-
-
+{% unless title_shown %}
+<h2>{{ category[1].title }}</h2>
+<hr />
+{% assign title_shown = true %}
+{% endunless %}
+{% include archive-single.html %}
+{% endfor %}
+{% endfor %}
+{% else %}
+{% for post in site.publications reversed %}
+{% include archive-single.html %}
+{% endfor %}
+{% endif %}
