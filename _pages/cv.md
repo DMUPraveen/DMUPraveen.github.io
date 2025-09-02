@@ -7,7 +7,7 @@ redirect_from:
   - /resume
 ---
 
-Link to [CV](https://dmupraveen.github.io/files/Praveen_Sumanasekara.pdf)
+Link to [CV](https://dmupraveen.github.io/files/Praveen_Sumanasekara_CV.pdf)
 
 # Praveen Sumanasekara  
 📧 dmu.praveen@gmail.com | 📱 +94 71 9600222  
