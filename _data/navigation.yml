@@ -12,11 +12,11 @@ main:
     url: /publications/
     
   - title: "CV"
-    url: /cv/
+    url: /files/Praveen_Sumanasekara_CV.pdf
 
-  - title: "Portfolio"
-    url: /portfolio/
+  # - title: "Portfolio"
+  #   url: /portfolio/
         
-  - title: "Blog Posts"
-    url: /year-archive/
+  # - title: "Blog Posts"
+  #   url: /year-archive/
     

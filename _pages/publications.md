@@ -1,35 +1,12 @@
 ---
-permalink: /
-title: "About me"
+layout: archive
+title: "Publications"
+permalink: /publications/
 author_profile: true
-redirect_from: 
-  - /about/
-  - /about.html
 ---
 
-I am **Praveen Suamansekara**, and I recently completed by Bsc. Eng. in Electrical and Electronic Engineering at University of Peradeniya with a 4.0/4.0 GPA. I am currently working as a Research Assistant at Multidisciplinary AI Research Centre (MARC). I am a researcher driven by self-directed exploration across multiple scientific domains, which has given me a crossdisciplinary perspective and a strong preference for theory-driven understanding. I approach problems from first principles, examining underlying assumptions and drawing on insights from different areas of science to guide my intuition. Exploration for me is both analytical and practical: I use simulations, experiments, and implementation to probe how ideas behave in reality, and refine those observations through careful mathematical reasoning. This continual interplay between fundamental analysis and practical, implementation-driven exploration is central to
-how I understand problems and develop principled solutions.
+For a more comprehensive list of publications please check out my [ResearchGate Profile](https://www.researchgate.net/profile/Praveen-Sumanasekara)
 
-**Contact:** [dmu.praveen@gmail.com](mailto:dmu.praveen@gmail.com) · [LinkedIn](https://www.linkedin.com/in/dmupraveen/)
-
-## Highlights
-
-- **National Rank 2** (out of 30,000+ candidates) in the 2019 G.C.E. Advanced Level University Entrance Examination.
-- **World Rank 5** (National Rank 1) in IEEEXtreme 19.0 programming competition, 2025 out of 8,000+ teams from 75 countries [ (Credentials – Team Insomniacs)](https://drive.google.com/file/d/1a9gM3syxL5qXfLYQoNAdeqynlc0m9FnI/view?usp=sharing).
-- **First in Engineering** (1/480) with a perfect GPA of 4.0/4.0 at the University of Peradeniya.
-- **4+ peer-reviewed publications**, including **Q1 Elsevier journals** and **IEEE conferences**.
-- **Multiple International Olympiad Medals**, including [IMSO Gold Medal](https://drive.google.com/file/d/1w0nbawR7M7yTWkqsIeGtWHoCHomIUm8I/view?usp=sharing) and the [Award for Best Theory Performance](https://drive.google.com/file/d/1V6pkneV4IDvli9V-sQ5MHBaaZeE8OZmY/view?usp=drive_link) (2013), and [Bronze Medal](https://drive.google.com/file/d/1AJYy15AleZ9lWPKXfK9uYxiv95A72zcX/view?usp=sharing) at the **International Chemistry Olympiad** (2020).
-
----
-
-## Research interests
-- Stochastic Processes & Statistical Inference  
-- Signal Processing
-- Mathematical Foundations of Machine Learning
-- Optimization Theory  
-- Computational Neuroscience  
-
----
 ## Publications
 
 ### Peer-reviewed Journals
