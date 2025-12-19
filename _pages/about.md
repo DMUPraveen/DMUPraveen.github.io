@@ -23,10 +23,10 @@ how I understand problems and develop principled solutions.
 ---
 
 ## Research interests
-- Stochastic Processes & Statistical Inference  
-- Signal Processing
 - Mathematical Foundations of Machine Learning
 - Optimization Theory  
+- Stochastic Processes & Statistical Inference  
+- Signal Processing
 - Computational Neuroscience  
 
 ---
